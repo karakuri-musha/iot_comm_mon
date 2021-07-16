@@ -66,11 +66,12 @@ sudo mkdir /opt/IoTCMT
 
 ```
 cd /opt/IoTCMT
-git clone https://github.com/karakuri-musha/iot_comm_mon.git
+sudo git clone https://github.com/karakuri-musha/iot_comm_mon.git
 ```
 ３．ダウンロード先にある環境設定ファイル「IoTCNTconfig.json」を編集します。</br>
 「user_passphrase」に、sudoコマンドで使用している管理者パスワードを入力します。
 ```
+cd /iot_comm_mon
 vi IoTCNTconfig.json
 ```
 ４．「IoT_pass_crypt.py」を実行して、「IoTCNTconfig.json」に記載したパスワードを暗号化します。
@@ -89,7 +90,7 @@ sudo vi /usr/local/bin/comm_mon.sh
 シェルの内容
 ```
 #!/bin/sh
-python3 IoT_comm_monitor.py IoTCNTconfig.json
+python3 /opt/IoTCMT/iot_comm_mon/IoT_comm_monitor.py /opt/IoTCMT/iot_comm_mon/IoTCNTconfig.json
 ```
 ８．シェルに実行権限を付与します。
 ```
