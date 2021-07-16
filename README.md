@@ -71,7 +71,7 @@ sudo git clone https://github.com/karakuri-musha/iot_comm_mon.git
 ３．ダウンロード先にある環境設定ファイル「IoTCNTconfig.json」を編集します。</br>
 「user_passphrase」に、sudoコマンドで使用している管理者パスワードを入力します。
 ```
-cd /iot_comm_mon
+cd iot_comm_mon
 vi IoTCNTconfig.json
 ```
 ４．「IoT_pass_crypt.py」を実行して、「IoTCNTconfig.json」に記載したパスワードを暗号化します。
