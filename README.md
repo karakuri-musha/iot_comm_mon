@@ -102,7 +102,7 @@ sudo vi /usr/local/bin/comm_mon.sh
 シェルの内容
 ```
 #!/bin/sh
-python3 /opt/IoTCMT/iot_comm_mon/IoT_comm_monitor.py /opt/IoTCMT/iot_comm_mon/IoTCNTconfig.json
+sudo python3 /opt/IoTCMT/iot_comm_mon/IoT_comm_monitor.py /opt/IoTCMT/iot_comm_mon/IoTCNTconfig.json
 ```
 ８．シェルに実行権限を付与します。
 ```
