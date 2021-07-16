@@ -122,7 +122,7 @@ sudo crontab -e
 ```
 LANG=ja_JP.UTF-8
 PATH="先ほど確認したパスを記入します"
-*/5 * * * * sh /usr/local/bin/comm_mon.sh
+*/5 * * * * /usr/local/bin/comm_mon.sh
 ```
 10．「cron」を再起動します。
 ```
