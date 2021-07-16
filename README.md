@@ -66,7 +66,7 @@ sudo mkdir /opt/IoTCMT
 
 ```
 cd /opt/IoTCMT
-git cron https://github.com/karakuri-musha/iot_comm_mon.git
+git clone https://github.com/karakuri-musha/iot_comm_mon.git
 ```
 ３．ダウンロード先にある環境設定ファイル「IoTCNTconfig.json」を編集します。</br>
 「user_passphrase」に、sudoコマンドで使用している管理者パスワードを入力します。
