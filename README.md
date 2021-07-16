@@ -76,7 +76,7 @@ sudo vi IoTCNTconfig.json
 ```
 ４．「IoT_pass_crypt.py」を実行して、「IoTCNTconfig.json」に記載したパスワードを暗号化します。
 ```
-python3 IoT_pass_crypt.py IoTCNTconfig.json
+sudo python3 IoT_pass_crypt.py IoTCNTconfig.json
 ```
 ５．「IoTCNTconfig.json」を確認し、パスワードが暗号化されていることを確認します。</br>
 ファイルは保存せずに終了します。
