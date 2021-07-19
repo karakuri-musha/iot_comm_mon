@@ -5,8 +5,8 @@
  Create 2021.06</br>
  Author  : GENROKU@Karakuri-musha</br>
  License : See the license file for the license.</br>
- Python ver : Python 3.7.3
- Hardware : Raspberry Pi 4 Model B / Raspberry Pi zero WH
+ Python ver : Python 3.7.3</br>
+ Hardware : Raspberry Pi 4 Model B
 
  このツールは、Raspberry Pi でWi-Fi接続を行う場合に設定したデフォルトルートへの通信状態をping監視し、状態変化があった場合に通知と修復処理を行うプログラムです。ツールの動作設定は、IoTCNTconfig.json（json形式）にて定義できます。
  復旧処理としては「rfkill」のブロック解除と「dhcpcd」のリスタートを行います。  
